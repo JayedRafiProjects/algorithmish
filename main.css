@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.display-3{
+	font-family: 'Sacramento', cursive;
+}
+
+.sub{
+	padding: 10px 0px 0px 0px;
+}
