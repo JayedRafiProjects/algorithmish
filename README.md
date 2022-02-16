@@ -1,0 +1,2 @@
+# algorithmish
+Weird Algorithm Archive
