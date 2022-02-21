@@ -1,8 +1,8 @@
 Name        : Reverse an array
 
 Language    : Java
-Inputs      : An array (But can be any type)
-Returns     : An array
+Inputs      : An array of int (can be any type)
+Returns     : An array of int (can be any type)
 Description : This algorithm reverses the received array and returns the reversed array.
               Insted of cloning the array, this algorithm swaps and interchange values
               on each iteration. For demonstration I've used an array of int. But it can
