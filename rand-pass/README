@@ -1,0 +1,4 @@
+Random password generator
+
+Generates random password with (ASCII 33 - 126).
+Takes the max length as parameter.
