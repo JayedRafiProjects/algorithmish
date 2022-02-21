@@ -1,4 +1,6 @@
-Word counter
+Name        : Word counter
 
-Counts number of words in a paragraph or sentence.
-Make sure the use of single space.
+Language    : Java
+Inputs      : A string containing the paragraph / sentence
+Returns     : An int
+Description : Counts the number of words in the received string.
