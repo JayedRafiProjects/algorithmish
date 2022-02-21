@@ -1,2 +1,1 @@
-# algorithmish
-Weird Algorithm Archive
+# Algorithmish
