@@ -1,4 +1,9 @@
-Random password generator
 
-Generates random password with (ASCII 33 - 126).
-Takes the max length as parameter.
+Name        : Random password generator
+
+Language    : Java
+Inputs      : The maximum length of the password
+Returns     : String; the random password
+Description : This algorithm generates random passowrd
+              with random ASCII characters range 33 to
+              126.
