@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<!--
+ALGORITHMISH HOME PAGE
+   -->
+	<head>
+		<title>Algorithmish</title>
+		<link rel="icon" href="./style/logo/algorithmish.png">
+		<link rel="stylesheet" href="./style/main.css">
+	</head>
+	<body>
+		<div class="b_one">
+		<h1 class="b_title">Algorithmish</h1>
+		<p class="b_subtitle">Computational algorithm archive <span>_</span></p>
+		</div>
+		
+		<div class="terminal">
+			<!--TERMINAL ANIMATION-->
+			<pre>
+			<code>
+			<p class="c">#include&lt;stdio.h&gt;</p>
+			<p class="c">int main() &#123;</p>
+			<p class="c">&nbsp;&nbsp;printf("Random prime number: %d",randPrime());</p>
+			<p class="c">&nbsp;&nbsp;return 0;</p>
+			<p class="c">&#125;</p>
+			<p class="c">Exploration starts here ...<span><strong>|</strong></span></p>
+			</code>
+			</pre>
+		</div>
+		<!--ABOUT & CONTACT-->
+		<div class="wrapper">
+			<h4 class="stitle">About</h4>
+			<p style="font-family: courier; color: #5D6D7E;">Algorithmish is a random collection of algorithms. While working on large projects, we stumble upon many situations when a small chunk of help can give us massive progress. This project is built with the idea of a library containing solutions to various creative computational problems by me over time. But not necessarily will have the most common data structure and algorithms (greedy algorithm, pathfinder, ...). Feel free to use any of these following algorithms while building your project and help to make this archive meaningful.</p>
+			<h4 class="stitle">Resources</h4>
+			<p style="font-family: courier; color: #5D6D7E;">
+				<a href="">Visit GitHub</a><br/>
+				Email: <a href="mailto:jayedrafi@outlook.com">jayedrafi@outlook.com</a><br/>
+			</p>
+		</div>
+		
+		<div class="b_three">
+		<div class="wrapper">
+			
+			<!--SEARCH-->
+			<div class="wrapper">
+			<h4 class="stitle">Explore</h4>
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search algorithms">
+			</div>
+			
+		<!--TABLE-->
+		<table id="myTable">
+  			<tr class="header">
+    			<th style="width:70%">Problems</th>
+    			<th style="">Language</th>
+  			</tr>
+
+			<!-- OPTIONS-->
+  			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+			<tr>
+    		<td style="width: 70%;"><a href="">2D Matrix manipulation</a></td>
+    		<td>Java</td>
+  			</tr>
+    		<!--END OPTIONS-->
+			
+		</table>
+			</div>
+		</div>
+		
+		<footer class="footer">Algorithmish @ <script>document.write( new Date().getUTCFullYear() );</script></footer>
+	</body>
+	<!-- JavaScript -->
+	<script>
+	function myFunction() {
+  	// Declare variables 
+  	var input, filter, table, tr, td, i, txtValue;
+  	input = document.getElementById("myInput");
+  	filter = input.value.toUpperCase();
+  	table = document.getElementById("myTable");
+  	tr = table.getElementsByTagName("tr");
+
+  	// Loop through all table rows, and hide those who don't match the search query
+  	for (i = 0; i < tr.length; i++) {
+    	td = tr[i].getElementsByTagName("td")[0];
+    	if (td) {
+      	txtValue = td.textContent || td.innerText;
+      	if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      	} else {
+        tr[i].style.display = "none";
+      	}
+    	} 
+  	}
+	}
+	</script>
+</html>
