@@ -1,5 +1,7 @@
-Palindrome validator
+Name        : Palindrome validator
 
-A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward.
-Example: rotor, kayak, reviver, racecar, madam, and refer.
-This program checks if the given string is palindrome. Case sensitive.
+Language    : Java
+Inputs      : String type (The word needs to be verified)
+Returns     : Boolean; true if palindrome else false
+Description : Palindrome is a word, phrase, or sequence that reads the same backward as forward.
+              This algorithm verifies if the received word is palindrome.
