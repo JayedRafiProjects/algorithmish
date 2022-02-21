@@ -1,0 +1,24 @@
+Name        : Symmetric matrix validator
+
+Language    : Java
+Inputs      : A 2 dimensional array of string (can be any type)
+Returns     : Boolean; if symmetric then returns true else false
+Description : This algorithm validates if the received 2D matrix 
+              fulfil the condition of symmetric matrix. Meaning
+              an exact matching of form and arrangement of parts 
+              on opposite sides of a boundary. If the matrix is 
+              horizontally or vertically symmetric, the method
+              returns true.
+              Example of two symmetric matrix:
+                
+                1 2 3
+                1 2 3
+                1 2 3
+                
+                - - - - - - -
+                - - - x - - -
+                - - x - x - -
+                - x - - - x -
+                - - x - x - -
+                - - - x - - -
+                - - - - - - -
