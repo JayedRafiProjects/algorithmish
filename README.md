@@ -1,2 +1,2 @@
 # Algorithmish
-My weird algorithm collections 😏
+My weird algorithm archive 😏
