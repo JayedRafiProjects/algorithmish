@@ -6,6 +6,7 @@ public class Main {
     }
 
     //word counter
+    //sentence with space
     public static int countWord(String sentence){
         String words[] = sentence.split(" ");
         int counter = words.length;
