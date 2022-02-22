@@ -5,3 +5,15 @@ Inputs      : String type (The word needs to be verified)
 Returns     : Boolean; true if palindrome else false
 Description : Palindrome is a word, phrase, or sequence that reads the same backward as forward.
               This algorithm verifies if the received word is palindrome.
+
+Procedure   : In each iteration of the loop, this program matches
+              the i th with the {(wordLength-1) - i} th  character.
+              
+              Let the word is, kayak.
+              So when the loop gets executing, for the first i = 0 the
+              character will be the first alphabet 'k'.
+              So the {(wordLength-1) - i} = {(5-1) - 0} = 4, which is the
+              character k from the last. 
+              That is how the algorithm matches characters and if any character
+              gets unmatched, the boolean turned into false and we know the
+              word is not palindrome.
